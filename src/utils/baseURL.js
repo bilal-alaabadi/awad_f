@@ -1,4 +1,4 @@
 
 export const getBaseUrl = () => {
-    return 'http://localhost:5000';//رابط الباك اند بدل 5000 رجع
+    return 'https://awad-b.vercel.app';//رابط الباك اند بدل 5000 رجع
 } 
