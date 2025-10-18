@@ -139,7 +139,7 @@ const ProductCards = ({ products }) => {
                       handleAddToCart(product._id, product);
                     }}
                     className={`p-2 text-white rounded-full shadow-md transition-all duration-300 ${
-                      addedItems[product._id] ? 'bg-green-500' : 'bg-[#CB908B]'
+                      addedItems[product._id] ? 'bg-green-500' : 'bg-[#8B4A2C]'
                     }`}
                     aria-label="إضافة إلى السلة"
                   >

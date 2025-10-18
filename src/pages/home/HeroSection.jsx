@@ -1,25 +1,26 @@
 // HeroSection.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import card1 from "../../assets/IMG_0064.jpg";
-import card2 from "../../assets/IMG_3440.png";
-import card3 from "../../assets/IMG_3441.png";
-import card4 from "../../assets/IMG_0067.jpg";
-import log from "../../assets/Screenshot_2025-08-23_183158-removebg-preview.png"; // شعار الأنثور
+import card1 from "../../assets/IMG_0392.jpg";
+import card2 from "../../assets/ChatGPT Image Oct 18, 2025, 02_28_54 PM.png";
+import card3 from "../../assets/IMG_0320 (1).jpg";
+import card4 from "../../assets/ChatGPT Image Oct 18, 2025, 02_18_07 PM.png";
+import log from "../../assets/ChatGPT Image Oct 16, 2025, 07_41_46 PM.png"; // شعار الأنثور
 
 const cards = [
-  { id: 1, image: card1, trend: '  ', title: 'تفصيل العبايات' },
-  { id: 4, image: card4, trend: ' ',  title: 'دريسات' },
-  { id: 2, image: card2, trend: '  ', title: 'الشيلات' },
-  { id: 3, image: card3, trend: '  ', title: 'العطور' },
+  { id: 1, image: card1, trend: '  ', title: 'العطور' },
+  { id: 2, image: card2, trend: ' ',  title: 'بخور' },
+  { id: 3, image: card3, trend: ' ',  title: 'أعواد' },
+  { id: 4, image: card4, trend: ' ',  title: 'ستاندات للأعواد' },
+
 ];
 
 // خريطة ربط عناوين الكروت مع فلاتر المتجر الموجودة
 const categoryMap = {
-  'تفصيل العبايات': 'تفصيل العبايات',
-  'دريسات': 'دريسات',
   'العطور': 'العطور',
-  'الشيلات': 'الشيلات سادة', // ينقله مباشرة لفلتر الشيلات
+  'بخور': 'بخور',
+  'أعواد': 'أعواد',
+  'ستاندات للأعواد': 'ستاندات للأعواد',
 };
 
 const HeroSection = () => {
@@ -33,7 +34,7 @@ const HeroSection = () => {
   return (
     <section className=' px-4 py-8'>
       <div className="relative text-center" dir="rtl">
-        <h2 className="text-[32px] font-normal text-[#CB908B] mb-1">أستكشف مجموعاتنا المميزة</h2>
+        <h2 className="text-[32px] font-normal text-[#8B4A2C] mb-1">أستكشف مجموعاتنا المميزة</h2>
         <p className="text-[32px] font-bold text-[#3c3c3c] mb-4">عبر أقسامنا الفريدة</p>
 
         <div className="flex items-center justify-center gap-3 relative z-10">

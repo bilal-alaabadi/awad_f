@@ -1,5 +1,5 @@
 import React from "react";
-import log from "../assets/Screenshot_2025-08-23_183158-removebg-preview.png"; // شعار RF_COLLECTION
+import log from "../assets/ChatGPT Image Oct 16, 2025, 07_41_46 PM.png"; // شعار RF_COLLECTION
 import {
   SiVisa,
   SiMastercard,
@@ -7,6 +7,7 @@ import {
   SiGooglepay,
 } from "react-icons/si";
 import { FaInstagram, FaWhatsapp, FaSnapchatGhost, FaTiktok } from "react-icons/fa";
+import Thw from "../assets/images__4_-removebg-preview.png";
 
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
           preserveAspectRatio="none"
           aria-hidden="true"
         >
-          <path d="M28 0 H100 V36 H28 A28 28 0 0 1 28 0 Z" fill="#CB908B" />
+          <path d="M28 0 H100 V36 H28 A28 28 0 0 1 28 0 Z" fill="#8B4A2C" />
         </svg>
 
         {/* محتوى الشريط */}
@@ -42,7 +43,7 @@ const Footer = () => {
                   <SiVisa className="text-3xl md:text-4xl drop-shadow-sm" />
                   <SiMastercard className="text-3xl md:text-4xl drop-shadow-sm" />
                   <SiApplepay className="text-3xl md:text-4xl drop-shadow-sm" />
-                  <SiGooglepay className="text-3xl md:text-4xl drop-shadow-sm" />
+                  <img src={Thw} className="w-10 invert brightness-0" alt="Thawani" />
                 </div>
               </div>
 
@@ -59,7 +60,7 @@ const Footer = () => {
 
       {/* الأقسام السفلية */}
       <div className="max-w-7xl mx-auto px-4 ">
-        <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10  bg-white text-[#CB908B] md:text-right text-center">
+        <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10  bg-white text-[#8B4A2C] md:text-right text-center">
           {/* RF_COLLECTION */}
           {/* <div>
             <h4 className="text-xl font-bold mb-3">RF_COLLECTION</h4>
@@ -95,10 +96,10 @@ const Footer = () => {
           {/* تواصل معنا */}
           <div>
             <h4 className="text-xl font-bold mb-3">تواصل معنا</h4>
-            <p className="text-sm mb-4">+96892760882</p>
+            <p className="text-sm mb-4">+96897743377</p>
             <div className="flex justify-center md:justify-end gap-4 ">
               <a
-                href="https://www.instagram.com/rf_collection999/"
+                href="https://www.instagram.com/aawad.om?igsh=b29ldWJ5N3lpOTE4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:text-[#9B2D1F] transition"
@@ -106,36 +107,36 @@ const Footer = () => {
                 <FaInstagram className="text-xl" />
               </a>
               <a
-                href="https://api.whatsapp.com/send/?phone=96892760882&text&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=96897743377&text&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:text-[#9B2D1F] transition"
               >
                 <FaWhatsapp className="text-xl" />
               </a>
-              <a
+              {/* <a
                 href="https://www.snapchat.com/add/rf_collectio999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:text-[#9B2D1F] transition"
               >
                 <FaSnapchatGhost className="text-xl" />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://www.tiktok.com/@rf_collection_999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:text-[#9B2D1F] transition"
               >
                 <FaTiktok className="text-xl" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
 
         {/* الحقوق */}
-        <div className="border-t border-[#CB908B]/30 pt-4 pb-8 text-center text-sm text-[#CB908B]" dir="rtl">
-          جميع الحقوق محفوظة لدى RF_COLLECTION —{" "}
+        <div className="border-t border-[#8B4A2C]/30 pt-4 pb-8 text-center text-sm text-[#8B4A2C]" dir="rtl">
+          جميع الحقوق محفوظة لدى aawad.om —{" "}
           <a
             href="https://www.instagram.com/mobadeere/"
             target="_blank"
